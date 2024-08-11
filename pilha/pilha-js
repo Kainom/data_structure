@@ -1,0 +1,32 @@
+
+
+function app() {
+
+}
+
+const pilha = () => {
+    const valores = [')', ')'];
+    const pilha = [];
+    let top = -1;
+    let itera = 0;
+    while (true) {
+        switch (pilha[top]) {
+            case '(':
+                if (valores[itera] === ')') {
+                    top--;
+                    itera++;
+                } break;
+
+                default :
+                if(valores[itera] == '(' || valores[itera] == '[' || valores[itera] == '{'){
+                    pilha[++top] = valores[itera];
+                    itera++;
+                } else{
+                    return -1;
+                }
+
+        }
+    }
+}
+
+
