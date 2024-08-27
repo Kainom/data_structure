@@ -62,7 +62,7 @@ void insert(struct no **start, struct no **end, int value)
         return;
     }
     (**end).next = newNo;
-    *end = newNo; // o fim esta apontando para Null implicitamente,vide ser um endereço inválido
+    *end = newNo; 
 }
 
 void remove(struct no **start)

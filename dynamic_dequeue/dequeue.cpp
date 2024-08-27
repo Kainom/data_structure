@@ -118,5 +118,5 @@ void initialDequeue(struct no **start, struct no **end)
         printf("List is empty.\n");
         return;
     }
-    printf("The value of initial is: %d\n", (*start)->data);
+    printf("The valuez' of initial is: %d\n", (*start)->data);
 }
