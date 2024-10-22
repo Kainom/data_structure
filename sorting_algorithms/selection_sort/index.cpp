@@ -26,7 +26,6 @@ int main() {
   t2 = clock();
 
   tempo = ((double)(t2 - t1)) / CLOCKS_PER_SEC;
-  printArray();
   printf("Tempo gasto no ordenado: %.6f segundos\n", tempo);
 }
 
