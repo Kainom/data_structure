@@ -21,6 +21,7 @@ void desordenado() {
 }
 
 void geraRandom() {
+  srand(time(NULL));  // Inicializa o gerador de números aleatórios.
   for (int i = 0; i < TAM; i++) {
     vetor[i] = rand() % 100000;
   }

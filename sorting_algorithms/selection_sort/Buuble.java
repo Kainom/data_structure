@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Bubble{
+public class Buuble{
 
     private static final int TAM = 199999;
     private  static int[] array = new int[TAM];
