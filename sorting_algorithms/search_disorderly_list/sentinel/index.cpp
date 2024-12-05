@@ -19,7 +19,7 @@ int main() {
   return 0;
 }
 
-int sentinelRecursive(int key, int i) {
+int sentinelRecursive(int key, int i) { // no make sense
   if (vetor[i] != key) {
     return sentinelRecursive(key, ++i);
   }
